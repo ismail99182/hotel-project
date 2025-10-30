@@ -1,0 +1,293 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+header>img{
+    width: 100%;
+    height: 100%;
+}
+header>nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    /* gap: 500px; */
+}
+header nav>h2{
+    height: 40px;
+    width: 140px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin: 25px 30px 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+header nav>ul{
+    list-style: none;
+    display: flex;
+    margin-left: 310px;
+    gap: 55px;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+header nav:hover{
+    background-color: black;
+}
+header nav>h2:hover{
+    border: 1px solid white;
+}
+#main{
+    display: flex;
+}
+#main>h1{
+    position: absolute;
+    top: 150px;
+    left: 330px;
+    color:white;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    font-weight: 100px
+}
+#main1{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    position: absolute;
+    top: 280px;
+    left: 150px;
+}
+.box1{
+    height: 50px;
+    width: 180px;
+    background-color: aqua;
+    box-sizing: border-box;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+.box1:hover{
+    background-color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#icons{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+.box2{
+    height:300px;
+    width: 300px;
+    background-color: white;
+    margin: 50px 5px 20px 200px;
+    box-sizing: border-box;
+    /* padding: 20px 50px 10px 100px ; */
+}
+i{
+    box-sizing: border-box;
+    margin: 30px 120px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 10px 75px 20px 75px;
+    
+}
+.pera{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 2px 15px;
+}
+.box3{
+    height:300px;
+    width: 300px;
+    background-color:white;
+    margin: 50px 5px 20px 0px;
+
+}
+.box4{
+height:300px;
+    width: 300px;
+    background-color: white;
+    margin: 50px 5px 20px 0px;
+}
+#images{
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+.img{
+    width: 360px;
+    height: 100%;
+    object-fit: cover;
+}
+#logos{
+    width: 100%;
+    height: 500px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+}
+#logos>h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+#logos>p{
+font-family: Arial, Helvetica, sans-serif;
+line-height: 35px;
+font-size: 14px;
+width: 40%;
+position: relative;
+top: 40px;
+}
+#cards{
+    width: 100%;
+    height: 600px;
+    background-image: url(Aerial\ view\ of\ Burj\ Al\ Arab\ luxury\ hotel\ in\ Dubai.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+}
+.card1{
+    width: 300px;
+    height:450px;
+    background-color:white;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.card1>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 85px 30px 85px;
+}
+.card1>p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px;
+    line-height: 30px;
+    font-size: 15px;
+    word-spacing: 2px;
+}
+.pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: relative;
+    top: 20px;
+    left: 90px;
+}
+.card1>h5{
+    position: relative;
+    top: 50px;
+    left: 105px;
+}
+/* <--!-box2--> */
+.card2{
+    width: 300px;
+    height:450px;
+    background-color:white;
+    position: relative;
+    top: 50px;
+    /* left: 200px; */
+    left: 540px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.card2>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 85px 30px 85px;
+}
+.card2>p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px;
+    line-height: 30px;
+    font-size: 15px;
+    word-spacing: 2px;
+}
+.pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: relative;
+    top: 20px;
+    left: 90px;
+}
+.card2>h5{
+    position: relative;
+    top: 50px;
+    left: 105px;
+}
+.card3{
+    width: 300px;
+    height:450px;
+    background-color:white;
+    position: absolute;
+    top: 50px;
+    right: 250px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.card3>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 85px 30px 85px;
+}
+.card3>p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px;
+    line-height: 30px;
+    font-size: 15px;
+    word-spacing: 2px;
+}
+.pic{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: relative;
+    top: 20px;
+    left: 90px;
+}
+.card3>h5{
+    position: relative;
+    top: 50px;
+    left: 105px;
+}
+.footer {
+    width: 100%;
+    height: 500px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0px 50px 0px;
+
+}
+.footer>h2{
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: unset;
+    font-size: 40px;
+}
+.footer>h2:hover{
+    color: aqua;
+}
