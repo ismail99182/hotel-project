@@ -270,7 +270,7 @@ top: 40px;
 }
 .card3>h5{
     position: relative;
-    top: 50px;
+    top: 30px;
     left: 105px;
 }
 .footer {
@@ -290,4 +290,5 @@ top: 40px;
 }
 .footer>h2:hover{
     color: aqua;
+
 }
