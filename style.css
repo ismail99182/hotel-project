@@ -246,7 +246,7 @@ top: 40px;
     margin-left:30px;
     position: absolute;
     top: 50px;
-    right: 220px;
+    right: 150px;
     box-sizing: border-box;
     border-radius: 5px;
 }
@@ -271,7 +271,7 @@ top: 40px;
 }
 .card3>h5{
     position: relative;
-    top: 30px;
+    top: 50px;
     left: 105px;
 }
 .footer {
@@ -293,6 +293,7 @@ top: 40px;
     color: aqua;
 
 }
+
 
 
 
