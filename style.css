@@ -168,6 +168,7 @@ top: 40px;
     background-size: cover;
     display: flex;
     position: relative;
+    gab:10px;
 }
 .card1{
     width: 300px;
@@ -181,7 +182,7 @@ top: 40px;
 }
 .card1>h1{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 50px 70px 30px 70px;
+    margin: 50px 50px 30px 50px;
 }
 .card1>p{
     font-family: Arial, Helvetica, sans-serif;
@@ -292,5 +293,6 @@ top: 40px;
     color: aqua;
 
 }
+
 
 
